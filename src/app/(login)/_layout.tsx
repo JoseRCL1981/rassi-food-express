@@ -18,7 +18,7 @@ export default function LoginLayout() {
         headerShadowVisible:false
       }}
     />
-    <Stack.Screen
+        <Stack.Screen
       name="register"
       options={{
         headerTitle: () => (
@@ -28,7 +28,7 @@ export default function LoginLayout() {
         headerShadowVisible:false
       }}
     />
-    <Stack.Screen
+        <Stack.Screen
       name="address"
       options={{
         headerTitle: () => (
@@ -39,6 +39,5 @@ export default function LoginLayout() {
       }}
     />
   </Stack >
-  
   );
 }

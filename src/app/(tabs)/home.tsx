@@ -1,9 +1,8 @@
-
+import Banners from "@/src/components/Banners";
 import BoxInput from "@/src/components/BoxInput";
 import Categorias from "@/src/components/Categorias";
 import { Text, View } from "react-native";
-import {banners, categorias, lojas} from "../../constants/data.js"
-import Banners from "@/src/components/Banners";
+import { banners, categorias, lojas} from "../../constants/data.js";
 import Lojas from "@/src/components/Lojas";
 
 

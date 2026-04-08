@@ -12,21 +12,17 @@ export default function Register() {
             <Text className="text-2xl font-normal">
                 Criar sua conta
             </Text>
-            <View className=" w-full pt-5 mb-10">
-                <BoxInput label="Nome completo" placeholder="Digite seu nome" />
+            <View className=" w-full pt-5 mb-0">
+                <BoxInput label="Nome Completo" placeholder="Digite seu nome" />
                 <BoxInput label="E-mail" placeholder="Digite seu melhor e-mail" />
                 <BoxInput label="Whatsapp" placeholder="Digite seu whatsapp" />
                 <BoxInput label="Senha" placeholder="Digite uma senha segura" isPassword />
-                <BoxInput label="Confirme sua senha" placeholder="Digite uma senha segura" isPassword />
+                <BoxInput label="Confirme a senha" placeholder="Digite sua senha" />
             </View>
-            <View className=" w-full pt-10 mb-28">
+            <View className=" w-full pt-1 mb-28">
                 <Button label="Próximo passo" url="./address"></Button>
             </View>
-            <TouchableOpacity onPress={() => router.navigate('./register')}>
-                <Text className="text-2xl font-normal">
-                    
-                </Text>
-            </TouchableOpacity>
+         
         </View>
     );
 }
