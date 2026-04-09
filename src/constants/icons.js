@@ -7,5 +7,8 @@ import favoritofull from "../assets/favorito-full2.png";
 import favorito from "../assets/favorito.png";
 import logo01 from "../assets/logo01.png";
 import logo02 from "../assets/logo02.png";
-
-export default { logo01, logo02, abahome, abafavorito, abapedidos, abaperfil, cart, favoritofull, favorito };
+import dados from "../assets/dados.png";
+import endereco from "../assets/endereco.png";
+import logout from "../assets/logout.png";
+import expandir from "../assets/expandir.png";
+export default { logo01, logo02, abahome, abafavorito, abapedidos, abaperfil, cart, favoritofull, favorito, dados, endereco, logout, expandir };
