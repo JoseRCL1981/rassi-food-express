@@ -12,7 +12,7 @@ export default function Address() {
             <Text className="text-2xl font-normal">
                 Criar sua conta
             </Text>
-            <View className=" w-full pt-2 mb-0">
+            <View className=" w-full pt-5 mb-10">
                 <BoxInput label="Endereço" placeholder="Digite seu endereço" />
                 <View className="flex-row gap-3">
                     <View className="w-[70%]">
