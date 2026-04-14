@@ -19,7 +19,7 @@ export default function Perfil() {
             <Pressable className="active:opacity-70">
                 <UpdPerfil titulo="Meus dados" subtitulo="Informações da conta" icone01="dados" icone02="expandir" />
             </Pressable>
-            <Pressable className="active:opacity-70" onPress={() => router.push("/")}>
+            <Pressable className="active:opacity-70" onPress={() => router.push("./")}>
                 <UpdPerfil titulo="Desconectar" subtitulo="Desconectar do aparelho" icone01="logout" icone02="expandir" />
             </Pressable>
             <View className="flex-1 justify-end w-full mb-28">

@@ -21,7 +21,7 @@ export default function Categorias(props: CategoriasProps) {
                 props.data.map((categoria: any, index: any) => {
                     return (
                         <View key={index} className="h-36 justify-center pr-5 bg-white">
-                            <Pressable className="active:opacity-70" onPress={() => router.push("/busca")}>
+                            <Pressable className="active:opacity-70" onPress={() => router.push("../busca")}>
                                 <View className=" bg-zinc-200 rounded-full overflow-hidden">
                                     <Image source={categoria.icone}
                                         style={{ width: 92, height: 92 }} />
