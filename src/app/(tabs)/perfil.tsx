@@ -1,3 +1,4 @@
+
 import UpdPerfil from "@/src/components/UpdPerfil";
 import Tools from "@/src/services/tools";
 import { useRouter } from "expo-router";
@@ -19,7 +20,7 @@ export default function Perfil() {
             <Pressable className="active:opacity-70">
                 <UpdPerfil titulo="Meus dados" subtitulo="Informações da conta" icone01="dados" icone02="expandir" />
             </Pressable>
-            <Pressable className="active:opacity-70" onPress={() => router.push("./")}>
+            <Pressable className="active:opacity-70" onPress={() => router.push("/")}>
                 <UpdPerfil titulo="Desconectar" subtitulo="Desconectar do aparelho" icone01="logout" icone02="expandir" />
             </Pressable>
             <View className="flex-1 justify-end w-full mb-28">
