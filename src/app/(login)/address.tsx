@@ -35,7 +35,7 @@ export default function Address() {
                   <BoxInput label="CEP" placeholder="Digite seu CEP" />
             </View>
             <View className=" w-full pt-1 mb-28">
-                <Button label="Próximo passo" url=""></Button>
+                <Button label="Criar minha conta" url=""></Button>
             </View>
 
         </View>
