@@ -2,7 +2,7 @@ import Banners from "@/src/components/Banners";
 import BoxInput from "@/src/components/BoxInput";
 import Categorias from "@/src/components/Categorias";
 import { Text, View } from "react-native";
-import { banners, categorias } from "../../constants/data.js";
+import { banners, categorias } from "../../constants/data";
 import Lojas from "@/src/components/Lojas";
 
 export default function Home() {
