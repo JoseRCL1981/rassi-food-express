@@ -151,7 +151,6 @@ export const lojas = [
             }
         ]
     },
-
     {
         id: 4,
         status: false,
@@ -185,9 +184,7 @@ export const lojas = [
                 itens: []
             }
         ]
-    },
-    
-    
+    }
 ];
 
 export const oldPedidos = [
@@ -210,6 +207,39 @@ export const pedidos = [
         fotoProd: "",
         quantidade: 0,
         total: 0.00,
+        status: false,
+    }
+];
+
+export const users = [
+    {
+        id: 1,
+        nome: "Luiz Rassi",
+        email: "luiz.rassi@efg.com",
+        senha: "12345",
+        endereco: "Rua dos Condes",
+        complemento: " Ap-1000",
+        bairro: "Buriti Sereno",
+        cidade: "Aparecida de Goiânia",
+        numero: "1025",
+        uf: "GO",
+        cep: "74000-000",
+        telefone: "62 9 9999-9999",
+        status: false,
+    },
+    {
+        id: 2,
+        nome: "Teste Rassi",
+        email: "teste.rassi@efg.com",
+        senha: "12345",
+        endereco: "Rua dos Condes",
+        complemento: " Ap-1000",
+        bairro: "Buriti Sereno",
+        cidade: "Aparecida de Goiânia",
+        numero: "1025",
+        uf: "GO",
+        cep: "74000-000",
+        telefone: "62 9 9999-9999",
         status: false,
     }
 ];
